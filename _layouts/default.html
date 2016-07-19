@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Wedding Antoine and Gudrun Maria">
+    <meta name="keywords" content="wedding, iceland, france-islande">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+<!-- Metadata End -->
+
+<!-- Site Properties -->
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Wedding Maria &amp; Antoine</title>
+    <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css"> 
+<!-- Site Properties End-->
+</head>
+
+<body>
+<!-- Sidebar for Smaller screens -->
+<div class="ui left demo vertical inverted sidebar labeled icon menu">
+    <a class="item" href="index.html"><i class="home icon"></i>Home</a>
+    <div class="ui vertical inverted accordion item">
+        <a class="active title item">
+            <i class="heart icon"></i>Our Product
+        </a>
+        <div class="inactive content menu">
+            <a class="item" href="cardreaders.html">Card Readers</a>
+            <a class="item" href="sdk.html">SDK</a>
+            <a class="item" href="gateway.html">Gateway</a>
+        </div>
+    </div>
+    <div class="ui vertical inverted accordion item">
+        <a class="active title item">
+            <i class="users icon"></i>Solutions
+        </a>
+        <div class="inactive content menu">
+            <a class="item" href="merchants.html">For Merchants</a>
+            <a class="item" href="developers.html">For Developers</a>
+            <a class="item" href="resellers.html">For Resellers</a>
+        </div>
+    </div>
+    <a class="item" href="https://www.handpoint.com/docs/basics/"><i class="code icon"></i>Docs</a>
+    <div class="ui vertical inverted accordion item">
+        <a class="active title item">
+            <i class="lab icon"></i>Support
+        </a>
+        <div class="inactive content menu">
+            <a class="item" href="merchantsfaq.html">Merchants FAQ</a>
+            <a class="item" href="developersfaq.html">Developers FAQ</a>
+        </div>
+    </div>
+    <div class="ui vertical inverted accordion item">
+        <a class="active title item">
+        <i class="building icon"></i>About
+        </a>
+        <div class="inactive content menu">
+            <a class="item" href="company.html">Company</a>
+            <a class="item" href="team.html">Team</a>
+            <a class="item" href="pressreleases.html">Press Releases</a>
+            <a class="item" href="careers.html">Careers</a>
+        </div>
+    </div>
+    <a class="item" href="#"><i class="feed icon"></i>Blog</a>
+    <a class="item" href="#"><i class="comment icon"></i>Contact</a>
+</div>
+<!-- Sidebar end -->
+
+<div class="pusher">
+
+{{ content }}
+
+</body>
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="semantic-ui/semantic.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- Scripts -->
+</html>
