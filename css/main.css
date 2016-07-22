@@ -38,7 +38,18 @@ h1{
 
 h2{
 	font-family: rochester !important;
+	font-size: 30px;
+	font-weight: bold !important;
+}
+
+h3{
+	font-family: rochester !important;
 	font-size: 25px;
+	font-weight: bold !important;
+}
+h4{
+	font-family: rochester !important;
+	font-size: 20px;
 	font-weight: bold !important;
 }
 
@@ -56,6 +67,7 @@ body.pushable {
     background: #f2f2f2 !important;
 }
 p, a{
+
 	font-weight: 400 !important;
 	font-size: 16px !important;
 	line-height: 24px !important;
@@ -83,7 +95,7 @@ p, a{
 #travel-accomodation{
 	background-image: url("/images/view-from-tjornin.jpg") !important;
 	background-size: cover;
-	height: 600px;
+	height: 700px;
 }
 #around-reykjavik{
 	background-image: url("/images/aurora.jpg") !important;
