@@ -77,7 +77,7 @@ p, a{
 #around-reykjavik{
 	background-image: url("/images/aurora.jpg") !important;
 	background-size: cover;
-	height: 800px;
+	height: 850px;
 }
 
 					/*main css*/
@@ -200,40 +200,41 @@ div.row{
 /*---------------------------------------------------*/
 
 @media (max-width:800px) and (min-width:768px){
-	.ui.secondary.menu a.launch-sidebar{
+		.ui.secondary.menu a.launch-sidebar{
 		display: block;
 	}
-	.ui.secondary.menu a.item {
-		display: none;
+	.ui.vertical.icon.menu{
+		width: 120px !important;
 	}
-	.ui.secondary.menu div.item {
-		display: none;
-	}
-	div.landing-background {
-	background-image: url("/images/card-readers/hilite-boat-small-screen.jpg") !important;
+	#landing{
+	background-image: url("/images/amoureux-small-screen.jpg") !important;
 	background-size: cover;
-	height: 600px;
+	background-position: left left;
+	height: 700px;
+	}
+	#warm-up-party{
+	background-image: url("/images/geyser-tablet-screen.jpg") !important;
+	background-size: cover;
+	height: 550px;
 	}
 
 	h1{
-		font-size: 19px !important;
+		font-size: 20px !important;
+	}
+	h2{
+		font-size: 18px !important;
 	}
 	h3{
 		font-size: 16px !important;
 	}
-	p {
+	p, a{
 		font-size: 12px !important;
 	}	
-	.ui.button{
-		font-size: 1em !important;
+	.display-small-screen-only{
+		display:block !important;
 	}
-	i.bordered.icon{
-		box-shadow: 0 0 0 0 !important;
+	.display-big-screen-only{
+		display: none !important;
 	}
-	.ui.small.image{
-		width: 100px !important;
-	}
-	.vmap{
-	height:200px;
-	}
+	
 }
