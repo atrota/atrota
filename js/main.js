@@ -12,3 +12,8 @@ $(function() {
     }
   });
 });
+
+
+//responsive sidebar
+$('.ui.sidebar').first()
+  .sidebar('attach events', '.launch-sidebar');
