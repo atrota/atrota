@@ -164,7 +164,7 @@ div.row{
 	background-image: url("/images/glacier.jpg") !important;
 	background-size: cover;
 	height: 1050px;
-}
+	}
 	#around-reykjavik{
 		background-image: url("/images/aurora.jpg") !important;
 		background-size: cover;
