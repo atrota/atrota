@@ -130,6 +130,9 @@ p, a{
 	opacity: 0.8;
 
 }
+.no-top-margin{
+	margin-top: 0px !important;
+}
 
 .border {
     border: 2px solid;
