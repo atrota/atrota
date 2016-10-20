@@ -164,8 +164,18 @@
                     <p class="paragraph-css">We will celebrate New Years Eve at Bryggjan Brugghús, Brewery and Restaurant by Reykjavik Harbor. They will put together a three course menu for 10.000 ISK per person. Please bring new years hat, glasses or a mask for the party. They have a phenomenal beer selection we recommend! Later we plan on shooting up fireworks and dancing the night away! Please send an email to trota.antoine@gmail.com for confirmation and let us know about any food allergies!</p>
                 </div>
             </div>
+            <div class="row">
+                <button class="ui big button modal-button-menu">Food Menu</button>
+            </div>
+        </div>
+        <div id="modal-menu" class="ui basic modal">
+            <div class="row">
+                <img class="ui  image" src="/images/menu.jpg" alt="menu"></img>
+            </div>
         </div>
 </section>
+
+
 <!-- End of Content for Section 5 - New Year -->
 
 <!-- Content for Section 6 - Travel -->
@@ -278,9 +288,11 @@
 </section>
 <!-- End of Content for Section 7 - Contact -->
 
-
-
-
+<script type="text/javascript">
+$('.modal-button-menu').click(function(){
+      $('#modal-menu').modal('show');
+    });
+</script>
 
 </div>
 
